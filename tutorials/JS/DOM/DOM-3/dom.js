@@ -100,7 +100,7 @@ var items = document.getElementsByClassName('list-group-item');
 var itemList = document.querySelector('#items');
 // parentNode
 // console.log(itemList.parentNode);
-// itemList.parentNode.style.backgroundColor = '#f4f4f4';
+// itemList.parentNode.style.backgroundColor = 'red';
 // console.log(itemList.parentNode.parentNode.parentNode);
 
 // parentElement
@@ -108,15 +108,16 @@ var itemList = document.querySelector('#items');
 // itemList.parentElement.style.backgroundColor = '#f4f4f4';
 // console.log(itemList.parentElement.parentElement.parentElement);
 
-// childNodes
+// childNodes  (useless)
 // console.log(itemList.childNodes);
 
-// console.log(itemList.children);
+//* */ console.log(itemList.children);
 // console.log(itemList.children[1]);
 // itemList.children[1].style.backgroundColor = 'yellow';
 
-// // FirstChild
+// // FirstChild  (useless)
 // console.log(itemList.firstChild);
+
 // // firstElementChild
 // console.log(itemList.firstElementChild);
 // itemList.firstElementChild.textContent = 'Hello 1';
@@ -124,6 +125,7 @@ var itemList = document.querySelector('#items');
 
 // lastChild
 // console.log(itemList.lastChild);
+
 // lastElementChild
 // console.log(itemList.lastElementChild);
 // itemList.lastElementChild.textContent = 'Hello 4';
@@ -139,6 +141,8 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.previousElementSibling);itemList.previousElementSibling.style.color = 'green';
 
 // createElement
+
+
 
 // // Create a div
 // var newDiv =  document.createElement('div');
@@ -167,15 +171,28 @@ var itemList = document.querySelector('#items');
 
 // container.insertBefore(newDiv, h1);
 
+// yukarının sadeleştirilmiş hali
+
+// var newDiv = document.createElement('div');
+// var newDivText = document.createTextNode('anan');
+// newDiv.appendChild(newDivText);
+
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header h1');
+// console.log(newDiv);
+// container.insertBefore(newDiv, h1);
+// newDiv.style.fontSize = '30px';
+
+
 // EVENTS //
 
 // var button = document.getElementById('button').addEventListener('click', buttonClick);
 
 // function buttonClick(e){
-//   //console.log('Button clicked');
-//   // document.getElementById('header-title').textContent = 'Changed';
-//   // document.querySelector('#main').style.backgroundColor = '#f4f4f4';
-//   //console.log(e);
+  //   //console.log('Button clicked');
+  //   // document.getElementById('header-title').textContent = 'Changed';
+  //   // document.querySelector('#main').style.backgroundColor = '#f4f4f4';
+  //   //console.log(e);
 
 //   // console.log(e.target);
 //   // console.log(e.target.id);
