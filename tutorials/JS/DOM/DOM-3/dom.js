@@ -4,7 +4,7 @@
 // console.log(document.domain);
 // console.log(document.URL);
 // console.log(document.title);
-// //document.title =  123;
+// document.title =  123;
 // console.log(document.doctype);
 // console.log(document.head);
 // console.log(document.body);
@@ -24,10 +24,11 @@
 // headerTitle.innerText = 'Goodbye';
 // console.log(headerTitle.innerText);
 // headerTitle.innerHTML = '<h3>Hello</h3>';
-// header.style.borderBottom = 'solid 3px #000';
+// headerTitle.style.borderBottom = 'solid 3px #000';
+// header.style.border = 'solid 3px #000';
 
 // GETELEMENTSBYCLASSNAME //
-// var items = document.getElementsByClassName('list-group-item');
+var items = document.getElementsByClassName('list-group-item');
 // console.log(items);
 // console.log(items[1]);
 // items[1].textContent = 'Hello 2';
@@ -40,6 +41,8 @@
 // for(var i = 0; i < items.length; i++){
 //   items[i].style.backgroundColor = '#f4f4f4';
 // }
+
+
 
 // GETELEMENTSBYTAGNAME //
 // var li = document.getElementsByTagName('li');
@@ -60,6 +63,7 @@
 // var header = document.querySelector('#main-header');
 // header.style.borderBottom = 'solid 4px #ccc';
 
+
 // var input = document.querySelector('input');
 // input.value = 'Hello World'
 
@@ -74,6 +78,7 @@
 
 // var secondItem = document.querySelector('.list-group-item:nth-child(2)');
 // secondItem.style.color = 'coral';
+
 
 // QUERYSELECTORALL //
 // var titles = document.querySelectorAll('.title');
